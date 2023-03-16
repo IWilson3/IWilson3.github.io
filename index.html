@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <!-- this is a link your css stylesheet. do not edit this. -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- These are the scripts needed to run your game/web toy. do not edit this. -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/addons/p5.sound.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/planck@latest/dist/planck.min.js"></script>
+        <script src="https://p5play.org/v3/p5play.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <!-- These are links to your javascript files. sketch is for your game/web toy. scripts is for your website. do not edit this. -->
+        <script src="sketch.js"></script>
+        <script src="scripts.js"></script>
+        
+        <!-- If you add any links to any other resources, put them below this line -->
+
+    </head>
+    <body>
+        <!-- Your website content goes here -->
+        <header>
+        <h1>Welcome to Space Invaders</h1>
+        <img src='assets/spaceShip.png' class='ship'>
+        </header>
+
+        <div class='information'> 
+            <img src='assets/cardInfo.png' class='infoCard'>
+            <div class='buttons'>
+            <button class='explanation' onclick='changeToInfoCard()'>Explanation</button>
+            <button class='controls' onclick='changeToControlsCard()'>Controls</button> 
+            <button class='aboutAuthor' onclick='changeToAboutAuthorCard()'>About Author</button>
+            </div>
+        </div>
+        <!-- the 'main' tags below are where your sketch will appear. do not edit this. -->
+        <main></main>
+
+
+    </body>
+</html>
